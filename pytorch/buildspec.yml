@@ -27,7 +27,7 @@ context:
       source: docker/build_artifacts/mnist.py
       target: mnist.py
   inference_context: &INFERENCE_CONTEXT
-    torchserve-entrypoint:
+    mms-entrypoint:
       source: docker/build_artifacts/mms-entrypoint.py
       target: mms-entrypoint.py
     config:
